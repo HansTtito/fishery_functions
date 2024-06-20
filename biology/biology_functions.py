@@ -2,7 +2,6 @@ import pandas as pd
 import numpy as np
 from haversine import haversine
 
-
 def formatear_fecha(fecha):
     if pd.notnull(fecha):
         try:
